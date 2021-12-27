@@ -1,0 +1,32 @@
+.kurzbeschreibung {
+    font-family: "Coolvetica";
+    font-size: 20px;
+    margin: 20px;
+}
+
+.week {
+    font-family: "Coolvetica";
+    font-size: 20px;
+    width: 850px;
+    border: 4px solid #030303;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 25px auto 25px auto;
+}
+
+.week:hover {
+    background-color: #f4f4f4;
+    transition: 0.2s;
+}
+
+.week_img {
+    border: 7px solid #2CADDC;
+    border-radius: 10px;
+    width: 800px;
+    margin: 20px 13px 0px 13px;
+}
+
+.orginaltweak {
+    display: block;
+    margin-top: 20px;
+}

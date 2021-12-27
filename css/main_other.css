@@ -1,0 +1,225 @@
+@font-face {
+    font-family: "Made Tommy";
+    src: url('fonts/made_tommy/MADE TOMMY Black_PERSONAL USE.otf')
+}
+
+@font-face {
+    font-family: "Coolvetica";
+    src: url('fonts/coolvetica/coolvetica rg.ttf')
+}
+/*
+div {
+    border: 1px solid black;
+}
+*/
+
+/*
+static settings
+*/
+body {
+    background-color: #292929;
+    background: url(background_img.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+abbr {
+    text-decoration: none;
+    font-style: italic;
+}
+
+/*
+BANNER BOX Style
+*/
+.banner {
+    background-color: #ffffff;
+    display: flex;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.document {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background: none;
+}
+
+.banner_title {
+    font-size: 100px;
+    font-family: "Made Tommy";
+    margin-left: 50px;
+    color: #030303;
+}
+
+.logo {
+    width: 109.5px;
+    height: 125px;
+    margin: 4px;
+    margin-left: 10px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.nav {
+    font-size: 30px;
+    width: 182px;
+    height: 55px;
+    text-align: center;
+    font-family: "Coolvetica";
+    border-bottom: 4px solid #ffffff;
+    color: #ffffff;
+    line-height: 50px;
+    border-radius: 15px;
+    margin: 0px 5px 0 5px;
+}
+
+.nav:hover{
+    background-color: rgba(74, 74, 74, 0.47);
+    border-bottom: 4px solid #ffa700;
+    transition: 0.3s;
+    color: #ffa700;
+}
+
+.nav:active {
+    border-bottom: 4px solid #FEB730;
+    background-color: #030303;
+    color: #FEB730;
+    transition: 0s;
+}
+
+.page_title {
+    font-size: 50px;
+    font-family: "Made Tommy";
+    text-align: center;
+    background: none;
+    color: #2CADDC;
+}
+
+/*
+CONTENT PAGE Style
+*/
+
+.content {
+    padding: 20px;
+    padding-top: 0px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+/*Home Module*/
+.home_module {
+    display: flex;
+    padding: 40px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-bottom: 4px solid #030303;
+    margin-bottom: 10px;
+}
+
+
+.home_module_bottom {
+    display: flex;
+    padding: 40px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+
+.img_home {
+    height: 222px;
+    border: 7px solid #2CADDC;
+    border-radius: 10px;
+}
+
+.img_home:hover {
+    border: 7px solid #030303;
+    box-shadow: 5px 5px 5px #FEB730;
+    transition: 0.2s;
+}
+
+.img_home:active {
+    height: 222px;
+    border: 7px solid #2CADDC;
+    border-radius: 10px;
+}
+
+
+/*Home modules - Kurzbeschreibung*/
+
+.kurzbeschreibung_text {
+    font-family: "Coolvetica";
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.kurzbeschreibung_img {
+    margin-top: 80px;
+    margin-right: 5px;
+}
+
+/*Home modules - Client Beispiel*/
+.client_short_text {
+    font-family: "Coolvetica";
+    font-size: 20px;
+    padding-right: 25px;
+}
+
+.img_client_short {
+    margin-top: 65px;
+}
+
+/*Home module - Client Download*/
+.client_download_text {
+    font-family: "Coolvetica";
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.img_client_login {
+    margin-top: 74px;
+}
+
+/*
+FOOTHER BAR Style
+*/
+.foother {
+    background-color: #3c3c3c;
+    display: flex;
+    padding: 40px 20px 40px 20px;
+    border-radius: 15px;
+}
+
+.foother_button {
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 60px;
+    margin-left: 60px;
+    border: 4px solid #ffffff;
+    font-size: 18px;
+    border-radius: 25px;
+    font-family: "Coolvetica";
+}
+
+.foother_button:hover {
+    text-decoration: underline;
+    background-color: #FFFFFF;
+    color: #2CADDC;
+    border-color: #2CADDC;
+    transition: 0.2s;
+}
+
+.abbr {
+    text-decoration: none;
+    font-style: italic;
+}

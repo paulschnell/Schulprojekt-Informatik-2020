@@ -1,0 +1,273 @@
+@font-face {
+    font-family: "Made Tommy";
+    src: url('fonts/made_tommy/MADE TOMMY Black_PERSONAL USE.otf')
+}
+
+@font-face {
+    font-family: "Coolvetica";
+    src: url('fonts/coolvetica/coolvetica rg.ttf')
+}
+/*
+div {
+    border: 1px solid black;
+}
+*/
+
+/*
+static settings
+*/
+body {
+    background-color: #292929;
+    background: url(background_img.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+.hinweis {
+    font-style: italic;
+    font-family: "Coolvetica";
+    font-size: 15px;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.inline_link {
+    color: #2CADDC;
+    font-style: italic;
+}
+
+.inline_link:hover {
+    text-decoration: underline;
+}
+
+.inline_link:active {
+    color: #FEB730;
+}
+
+abbr {
+    text-decoration: none;
+    font-style: italic;
+}
+
+.top_button {
+    display: block;
+    width: 120px;
+    height: 40px;
+    border: 4px solid #000000;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    line-height: 40px;
+    font-family: "Coolvetica";
+    font-size: 18px;
+    margin: auto;
+}
+
+.top_button:hover {
+    text-decoration: underline;
+    background-color: #363636;
+    color: #2CADDC;
+    border-color: #2CADDC;
+    transition: 0.2s;
+}
+
+
+
+.document {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background: none;
+}
+
+/*
+BANNER BOX Style
+*/
+.banner {
+    background-color: #ffffff;
+    display: flex;
+}
+
+.banner_title {
+    font-size: 100px;
+    font-family: "Made Tommy";
+    margin-left: 50px;
+    color: #030303;
+}
+
+.logo {
+    width: 109.5px;
+    height: 125px;
+    margin: 4px;
+    margin-left: 10px;
+}
+
+/*
+Navigation Bar
+*/
+.navigation {
+    display: flex;
+}
+
+.nav {
+    font-size: 30px;
+    width: 192px;
+    height: 55px;
+    text-align: center;
+    font-family: "Coolvetica";
+    border-bottom: 4px solid #363636;
+    background-color: #4a4a4a;
+    color: #ffffff;
+    line-height: 55px;
+}
+
+.nav:hover{
+    border-bottom: 4px solid #915f00;
+    background-color: #FEB730;
+    transition: 0.3s;
+    color: #915f00;
+}
+
+.nav:active {
+    border-bottom: 4px solid #FEB730;
+    background-color: #030303;
+    color: #FEB730;
+    transition: 0s;
+}
+
+.nav_current_page {
+    background-color: #363636;
+    border-bottom: 4px solid #363636;
+}
+
+/*
+Page
+*/
+
+.page_title {
+    font-size: 50px;
+    font-family: "Made Tommy";
+    text-align: center;
+    border-bottom: 4px solid #363636;
+    background-color: #2CADDC;
+    color: #FFFFFF;
+}
+
+/*
+CONTENT PAGE Style
+*/
+
+.content {
+    padding: 20px;
+    padding-top: 0px;
+    background-color: #FFFFFF;
+    min-height: 520px;
+}
+
+/*Home Module*/
+.home_module {
+    display: flex;
+    padding: 40px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-bottom: 4px solid #030303;
+    margin-bottom: 10px;
+}
+
+
+.home_module_bottom {
+    display: flex;
+    padding: 40px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+
+.img_home {
+    height: 222px;
+    border: 7px solid #2CADDC;
+    border-radius: 10px;
+}
+
+.img_home:hover {
+    border: 7px solid #030303;
+    box-shadow: 5px 5px 5px #FEB730;
+    transition: 0.2s;
+}
+
+.img_home:active {
+    height: 222px;
+    border: 7px solid #2CADDC;
+    border-radius: 10px;
+}
+
+
+/*Home modules - Kurzbeschreibung*/
+
+.kurzbeschreibung_text {
+    font-family: "Coolvetica";
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.kurzbeschreibung_img {
+    margin-top: 80px;
+    margin-right: 5px;
+}
+
+/*Home modules - Client Beispiel*/
+.client_short_text {
+    font-family: "Coolvetica";
+    font-size: 20px;
+    padding-right: 25px;
+}
+
+.img_client_short {
+    margin-top: 65px;
+}
+
+/*Home module - Client Download*/
+.client_download_text {
+    font-family: "Coolvetica";
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.img_client_login {
+    margin-top: 74px;
+}
+
+/*
+FOOTHER BAR Style
+*/
+
+.foother {
+    background-color: #3c3c3c;
+    display: flex;
+    padding: 40px 20px 40px 20px;
+}
+
+.foother_button {
+    width: 120px;
+    height: 40px;
+    margin: 0px 60px 0px 60px;
+    border: 4px solid #ffffff;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 40px;
+    font-family: "Coolvetica";
+    font-size: 18px;
+}
+
+.foother_button:hover {
+    text-decoration: underline;
+    background-color: #FFFFFF;
+    color: #2CADDC;
+    border-color: #2CADDC;
+    transition: 0.2s;
+}

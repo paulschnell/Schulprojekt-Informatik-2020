@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Made Tommy";
+    src: url('fonts/made_tommy/MADE TOMMY Black_PERSONAL USE.otf')
+}
+
+@font-face {
+    font-family: "Coolvetica";
+    src: url('fonts/coolvetica/coolvetica rg.ttf')
+}
+
+.content {
+    padding-top: 20px;
+}
+
+.client_module {
+    display: flex;
+    padding: 40px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border: 4px solid #030303;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.client_module:hover {
+    background-color: #e0e0e0;
+    transition: 0.2s;
+}
+
+.img_client {
+    height: 222px;
+    border: 7px solid #2CADDC;
+    border-radius: 10px;
+}
+
+.img_client:hover {
+    border: 7px solid #030303;
+    box-shadow: 5px 5px 5px #FEB730;
+    transition: 0.2s;
+}
+
+.img_client:active {
+    height: 222px;
+    border: 7px solid #2CADDC;
+    border-radius: 10px;
+}
+
+.text_client {
+    font-family: "Coolvetica";
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 10px 0px 10px 20px;
+    border-left: 5px solid #9b9b9b;
+}
+
+.img_wheels {
+    margin-top: 25px;
+}
+
+.img_badlion_startup {
+    margin-top: 85px;
+}
+
+.badlion_startpage {
+    margin-top: 100px;
+}
+
+.img_badlion_resourcepacks {
+    margin-top: 55px;
+}

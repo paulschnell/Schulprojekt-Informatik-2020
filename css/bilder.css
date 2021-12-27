@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Made Tommy";
+    src: url('fonts/made_tommy/MADE TOMMY Black_PERSONAL USE.otf')
+}
+
+@font-face {
+    font-family: "Coolvetica";
+    src: url('fonts/coolvetica/coolvetica rg.ttf')
+}
+
+.img_box {
+    border: 7px solid #2CADDC;
+    border-radius: 10px;
+    width: 900px;
+}
+
+.text_box {
+    font-family: "Coolvetica";
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: justify;
+    width: 900px;
+    margin-left: 5px;
+}
+
+.box {
+    width: 915px;
+    border-bottom: 7px solid #030303;
+    border-top: 7px solid #030303;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 5px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.box:hover {
+    background-color: #e6e6e6;
+    transition: 0.2s;
+}
+
+.content {
+    padding-top: 20px;
+}

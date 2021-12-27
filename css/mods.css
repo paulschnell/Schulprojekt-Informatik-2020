@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Coolvetica";
+    src: url('fonts/coolvetica/coolvetica rg.ttf')
+}
+
+.mods_text {
+    padding-top: 10px;
+    font-family: "Coolvetica";
+    font-size: 20px;
+}
+
+/*
+Table
+*/
+.mods_table {
+    margin: 20px 10px 10px 10px;
+    font-family: "Coolvetica";
+    font-size: 20px;
+    border: none;
+}
+
+.head_line {
+    background-color: #363636;
+    color: #FFFFFF;
+    text-align: center;
+    height: 50px;
+    letter-spacing: 1px;
+}
+
+#table_mod {
+    width: 100px;
+}
+
+.table_mod_column {
+    width: 150px;
+    text-align: center;
+    height: 100px;
+    border: 2px solid #000000;
+}
+
+.table_icon_column {
+    background-color: #232323;
+    text-align: center;
+    column-width: 200px;
+    height: 100px;
+    border: 2px solid #000000;
+}
+
+.img_icon {
+    max-width: 100px;
+    
+}
+
+#table_beschreibung {
+    
+}
+
+.table_beschreibung_column {
+    width: 516px;
+    height: 100px;
+    border: 2px solid #000000;
+}
+
+.dark {
+    background-color: #bfbfbf;
+}
+
+tr:hover {
+    background-color: #FEB730;
+    transition: 0.2s;
+}
